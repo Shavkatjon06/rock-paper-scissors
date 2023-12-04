@@ -1,0 +1,59 @@
+body {
+background-color: black;
+font-family: Arial;
+}
+
+.element-button {
+background-color: black;
+border: 3px solid white;
+padding: 0px 30px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.js-reset {
+padding: 10px 20px;
+}
+
+.paragraph-style {
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.elements {
+font-size: 30px;
+}
+
+.auto-play-button, .js-reset {
+background-color: white;
+border: none;
+font-size: 15px;
+padding: 8px 15px;
+cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+.main-body {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20%;
+}
+
+.game-elements {
+display: flex;
+flex-direction: row;
+}
+
+.paragraph-style, .elements {
+font-size: 50px;
+padding: 10px 30px;
+}
+
+.auto-play-button, .js-reset {
+font-size: 50px;
+margin-bottom: 20px;
+padding: 20px;
+}
+}
